@@ -1,9 +1,10 @@
 import streamlit as st
 import pandas as pd
 from sqlalchemy import create_engine, text, inspect
-from mlx_lm import load, generate
 import os
 os.environ["MLX_BACKEND"] = "cpu"  # forces CPU execution
+from mlx_lm import load, generate
+
 
 st.set_page_config(page_title="UniSQL - Universal DB to SQL AI", layout="wide")
 st.title("UniSQL - Universal DB to SQL AI")
