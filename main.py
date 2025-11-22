@@ -4,9 +4,9 @@ from sqlalchemy import create_engine, text, inspect
 from mlx_lm import load, generate
 
 
-st.set_page_config(page_title="Natural Language to SQL AI", layout="wide")
-st.title("Natural Language to SQL AI")
-st.caption("Qwen2.5 • Offline • Any SQL Database • Basic SQL Executor")
+st.set_page_config(page_title="SQLGenie - Natural Language to SQL AI", layout="wide")
+st.title("SQLGenie - Natural Language to SQL AI")
+st.caption("• Any SQL Database • Basic SQL Executor")
 
 MODEL_PATH = "./models/qwen2.5-coder-7b"
 
