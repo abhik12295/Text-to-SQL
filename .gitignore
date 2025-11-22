@@ -1,3 +1,5 @@
 mysqlai/
 models/
 logs/
+.venv/
+app.py
